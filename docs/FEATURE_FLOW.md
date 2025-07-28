@@ -56,3 +56,36 @@ This document outlines the core user experience of TenaTrack, from initial login
 
 ---
 
+# project stracture
+
+TenaTrack-Ai/
+├── public/                  # Static assets
+│   └── index.html
+├── src/                     # Main application source
+│   ├── assets/              # Images, fonts, icons
+│   ├── components/          # Reusable UI components
+│   │   └── Navbar.jsx
+│   ├── layouts/             # Page wrappers/layouts
+│   ├── pages/               # Route-based views
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Vaccination.jsx
+│   │   └── Triage.jsx
+│   ├── styles/              # Tailwind and custom styles
+│   ├── routes/              # React Router setup
+│   ├── context/             # Global state (Context API or Redux)
+│   ├── config/              # Firebase & Fayda configs
+│   │   └── firebase.js
+│   ├── services/            # API calls, Fayda, Firestore utils
+│   ├── hooks/               # Custom React hooks
+│   ├── utils/               # Formatters, validators, helpers
+│   ├── App.jsx              # Root component
+│   └── index.js             # Entry point
+├── functions/               # Firebase Cloud Functions
+│   └── index.js
+├── .env                     # Secrets (firebaseConfig, etc.)
+├── .gitignore
+├── package.json
+└── README.md
+
+
