@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "tenatrack-production"
-  }
+    "default": "tenatrack-production",
+    "prod": "tenatrack-production"
+  },
+  "targets": {},
+  "etags": {}
 }
